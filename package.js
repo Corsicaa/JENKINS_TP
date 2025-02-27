@@ -1,4 +1,6 @@
-"scripts": {
-  "test": "mocha test.js",
-  "build": "echo 'Build process complete!'"
-}
+module.exports = {
+  scripts: {
+    "test": "mocha test.js",
+    "build": "echo 'Build process complete!'"
+  }
+};
